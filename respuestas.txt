@@ -1,0 +1,17 @@
+linea 1 = para empezar creando el HTML
+linea 2 = extensión para la creación de la pagina web
+linea 8 =  el cuerpo de la pagina en creación de html
+linea 29 = lista con el texto configuración de redes
+linea 33 = titulo formulario de contacto con h2 el tamaño  de la letra
+
+
+
+
+
+error linea 7 sacando /
+erro linea 13 sacar /
+error linea 28 falta cerra </li>
+error linea 30 incompleta falta cerrar </ul>
+
+
+profesor no alcance a terminar mi prueba se me apago mi computador por favor considerar. muchas gracias 
