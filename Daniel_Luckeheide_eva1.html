@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Daniel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 20px 0;
+            width: 100%;
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        ul {
+            list-style-type: square;
+            margin: 20px;
+        }
+        .content-block {
+            background-color: #fbfbff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .content-block h1, .content-block h2 {
+            color: #444;
+        }
+        .contact-form {
+            background-color: #dbc7c7;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #5cb85c;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-block">
+        <h1>Sitio Daniel Luckeheide</h1>
+        <p>somos el mejor pais de chile .</p>
+        <h2>Tabla de Informacion</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Daniel</th>
+                    <th>edad</th>
+                    <th>ciudad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>pablo</td>
+                    <td>30</td>
+                    <td>quilicura</td>
+                </tr>
+                <tr>
+                    <td>Daniel</td>
+                    <td>28</td>
+                    <td>laflorida</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>EJEMPLO DE LISTA  </h2>
+        <ul>
+            <li>cuentame mas de ti</li>
+            <li>mis gustos musicales</li>
+            <li>daniel luckeheide</li>
+        </ul>
+    </div>
+    <div class="content-block">
+        <h2>ver pelicula en busca de la felicidad gratis y con virus </h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAl3re0KgPF101Q-WKomtyDWyhj4DTNM-uBw&s" alt="Sample Image" style="width:100%; border-radius: 8px;">
+    </div>
+    <div class="contact-form">
+        <h2>FORMULARIO DE RECLAMO </h2>
+        <form action="#" method="post">
+            <label for="name">Nombre Completo:</label>
+            <input type="text" id="name" nombre="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Reclamo:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">enviar</button>
+        </form>
+    </div>
+</body>
+</html>
